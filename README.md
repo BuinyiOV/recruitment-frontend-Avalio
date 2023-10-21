@@ -1,34 +1,59 @@
-# Zadanie rekrutacyjne
+Aby uruchomić aplikację:
 
-**Cel:**
-Stworzenie prostego interfejsu użytkownika do zarządzania listą zadań (to-do) z wykorzystaniem React, SCSS, Redux oraz kreatywnego myślenia w kontekście UX/UI.
+Śledź ten link: https://buinyiov.github.io/recruitment-frontend-Avalio/
 
-## Specyfikacja:
-1. **Stworzenie nowego projektu z wykorzystaniem Create React App.**
-2. **Interfejs:**
-    - Strona główna powinna zawierać listę zadań oraz pole do dodawania nowych zadań.
-    - Każde zadanie powinno zawierać tekst oraz przycisk do jego usunięcia.
-    - Powinna być możliwość oznaczenia zadania jako "zrobione", co powoduje przesunięcie go na dół listy i zmianę jego wyglądu (np. przekreślenie).
-    - Wykorzystaj SCSS (css modules) do stworzenia stylów strony. Zachęcamy do kreatywnego podejścia i stworzenia atrakcyjnego, intuicyjnego interfejsu.
+Lub
+	Jeśli pobrałeś archiwum repozytorium:
 
-3. **Stan aplikacji:**
-    - Użyj Redux do zarządzania stanem aplikacji. Stan powinien zawierać listę zadań oraz informacje o tym, czy dane zadanie zostało wykonane.
+W terminalu napisz:
 
-4. **Dodatkowe punkty za:**
-    - Responsywność – aplikacja powinna wyglądać dobrze zarówno na komputerach, jak i urządzeniach mobilnych.
-    - Stworzenie prostego testu jednostkowego do jednego z komponentów.
-    - Optymalizacja wydajności oraz dbanie o czystość kodu.
+1. npm i
 
-## Instrukcje:
-1. Utwórz fork repozytorium udostępnionego przez nas na GitHub [pod tym linkiem](https://github.com/Dentametr/recruitment-frontend).
-2. Po zakończeniu zadania, wyślij link do Twojego forka na adres: info@avalio.io.
-3. Upewnij się, że zawarłeś/aś wszystkie niezbędne instrukcje w README, abyśmy mogli uruchomić Twoją aplikację lokalnie (możesz nadpisać ten plik).
+	(Poczekaj na zakończenie instalacji)
 
-## Ocenianie:
-Przy ocenie będziemy zwracać uwagę na:
-- Jakość kodu (czystość, struktura).
-- Wykorzystanie technologii (React, Redux, SCSS).
-- Kreatywność w kontekście UX/UI.
-- Responsywność oraz ogólną funkcjonalność aplikacji.
+2. npm start
 
-**Powodzenia!** 
+Lub
+	Jeśli sklonowałeś repozytorium:
+
+W terminalu napisz:
+
+1. cd recruitment-frontend-Avalio
+
+2. npm i
+
+	(Poczekaj na zakończenie instalacji)
+
+3. npm start
+
+//--------------------------------------------------------------------------
+
+To run the application:
+
+Follow this link: https://buinyiov.github.io/recruitment-frontend-Avalio/
+
+Or
+	If you downloaded the repository archive:
+
+In the terminal write:
+
+1. npm i
+
+	(Wait for installation to complete)
+
+2. npm start
+
+Or
+	If you cloned the repository:
+
+In the terminal write:
+
+1. cd recruitment-frontend-Avalio
+
+2. npm i
+
+	(Wait for installation to complete)
+
+3. npm start
+
+
