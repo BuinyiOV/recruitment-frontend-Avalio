@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/recruitment-frontend-Avalio/static/css/main.b074725e.css",
+    "main.js": "/recruitment-frontend-Avalio/static/js/main.bd2ab2f0.js",
+    "index.html": "/recruitment-frontend-Avalio/index.html",
+    "main.b074725e.css.map": "/recruitment-frontend-Avalio/static/css/main.b074725e.css.map",
+    "main.bd2ab2f0.js.map": "/recruitment-frontend-Avalio/static/js/main.bd2ab2f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b074725e.css",
+    "static/js/main.bd2ab2f0.js"
+  ]
+}
