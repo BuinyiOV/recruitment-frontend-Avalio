@@ -1,0 +1,50 @@
+.minimalist {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family: Roboto;
+}
+
+.minimalist .header__title,
+.minimalist .colors__title {
+	color: rgb(0, 0, 0);
+	font-family: Lobster;
+}
+
+.minimalist .list__item,
+.minimalist .add-new-task {
+	border-radius: 0;
+	border: 0.5px solid rgb(0, 0, 0);
+	background: none;
+}
+
+.minimalist .add-new-task__input {
+	color: rgb(0, 0, 0);
+}
+
+@media (min-width:767px) {
+	.minimalist .list__item:hover {
+
+		.list__item-btn-done,
+		.list__item-btn-delete {
+			color: rgb(0, 0, 0);
+		}
+	}
+}
+
+.minimalist .done {
+	background-color: rgba(2, 255, 15, 0.158);
+	text-decoration: line-through;
+	color: rgba(0, 0, 0, 0.529);
+	transition-duration: 0.7s;
+}
+
+.minimalist .done:hover {
+	background-color: rgba(12, 189, 21, 0.636);
+	border: 0.5px solid rgba(12, 189, 21, 0.636);
+	text-decoration: none;
+	color: black;
+
+	.list__item-btn-delete {
+		color: black;
+	}
+}

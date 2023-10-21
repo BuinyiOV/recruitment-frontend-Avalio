@@ -1,0 +1,52 @@
+.robot {
+	background-color: black;
+	color: rgb(7, 160, 7);
+	font-family: Kanit;
+}
+
+.robot .header__title,
+.robot .colors__title {
+	color: rgb(7, 160, 7);
+	font-family: Kanit;
+
+
+}
+
+.robot .list__item,
+.robot .add-new-task {
+	border-radius: 0;
+	border: 0.5px solid rgb(7, 160, 7);
+	background: none;
+}
+
+.robot .add-new-task__input {
+	color: rgb(7, 160, 7);
+}
+
+@media (min-width:767px) {
+	.robot .list__item:hover {
+
+		.list__item-btn-done,
+		.list__item-btn-delete {
+			color: rgb(7, 160, 7);
+		}
+	}
+}
+
+.robot .done {
+	background-color: rgba(2, 255, 15, 0.158);
+	text-decoration: line-through;
+	color: rgba(0, 0, 0, 0.529);
+	transition-duration: 0.7s;
+}
+
+.robot .done:hover {
+	background-color: rgba(12, 189, 21, 0.636);
+	border: 0.5px solid rgba(12, 189, 21, 0.636);
+	text-decoration: none;
+	color: black;
+
+	.list__item-btn-delete {
+		color: black;
+	}
+}

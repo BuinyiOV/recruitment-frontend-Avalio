@@ -1,0 +1,115 @@
+.list__item {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+
+	flex-wrap: wrap;
+
+	margin-bottom: 1rem;
+	padding: 0 0.5rem;
+
+	border-radius: 15px 0;
+	border: 0.5px solid rgba(245, 245, 245, 0.499);
+
+	background-color: rgba(245, 245, 245, 0.499);
+	transition-duration: 0.7s;
+}
+
+@media (min-width:767px) {
+	.list__item {
+		flex-wrap: nowrap;
+		padding: 1rem 2rem;
+	}
+}
+
+.list__item:hover {
+	padding: 0;
+	border-radius: 0;
+	background-color: whitesmoke;
+
+	.list__item-text {
+		flex: 1 1 100%;
+	}
+
+	.list__item-btn-done {
+		color: rgb(21, 255, 0);
+	}
+
+	.list__item-btn-delete {
+		color: rgb(255, 0, 0);
+	}
+}
+
+@media (min-width:767px) {
+	.list__item:hover {
+		padding: 2rem;
+
+		.list__item-btn-done,
+		.list__item-btn-delete {
+			color: rgb(0, 0, 0);
+		}
+	}
+}
+
+.list__item-text {
+	display: block;
+	margin: 1rem 2rem 1rem 1rem;
+
+	flex: 1 0 100%;
+
+	transition-duration: 0.7s;
+}
+
+.list__item-btn-done,
+.list__item-btn-delete {
+	display: block;
+	line-height: 2rem;
+	margin: 0 1rem;
+
+	color: rgba(0, 0, 0, 0);
+	background: none;
+
+	transition-duration: 0.7s;
+}
+
+.list__item-btn-done svg {
+	width: 2.5rem;
+	height: 2.5rem;
+
+	transition-duration: 0.7s;
+
+}
+
+.list__item-btn-delete svg {
+	width: 2rem;
+	height: 2rem;
+
+	transition-duration: 0.7s;
+}
+
+.list__item-btn-done:hover svg {
+	color: rgb(21, 255, 0);
+}
+
+.list__item-btn-delete:hover svg {
+	color: rgb(255, 0, 0);
+}
+
+.list__item-btn-done:hover svg,
+.list__item-btn-delete:hover svg {
+	transform: scale(1.5);
+}
+
+.done {
+	background-color: rgba(2, 255, 15, 0.158);
+	text-decoration: line-through;
+	color: rgba(0, 0, 0, 0.529);
+	transition-duration: 0.7s;
+}
+
+.done:hover {
+	background-color: rgba(12, 189, 21, 0.636);
+	border: 0.5px solid rgba(12, 189, 21, 0.636);
+	text-decoration: none;
+}

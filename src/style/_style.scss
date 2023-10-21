@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "_nullstyle";
+@import "_container";
+@import "_header";
+@import "_addNewTask";
+@import "_list";
+@import "colorScheme/_colorScheme";
+
+* {
+	font-size: 1rem;
+}
+
+@media (min-width:300px) {
+	* {
+		font-size: 2rem;
+	}
+}
+
+@media (min-width:2000px) {
+	* {
+		font-size: 4rem;
+	}
+}
+
+body {
+	background-color: rgba(89, 131, 252, 1);
+	background-image: radial-gradient(circle, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%);
+}

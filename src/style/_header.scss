@@ -1,0 +1,47 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (min-width:320px) {
+	.header__colors {
+		flex: 1 0 40%;
+	}
+
+	.header__title {
+		flex: 1 0 40%;
+	}
+}
+
+.header__colors {
+	cursor: pointer;
+	display: block;
+}
+
+.header__title,
+.colors__title {
+	display: block;
+	padding: 1rem 2rem;
+	margin-bottom: 3rem;
+
+	font-family: Lobster;
+	font-size: 3rem;
+	color: whitesmoke;
+}
+
+.header__title {
+	text-align: right;
+}
+
+.header__colors:hover {
+	.colors__list {
+		margin: 0;
+
+		transition-duration: 1s;
+	}
+}
+
+.colors__list {
+	margin: -200vh 0;
+	transition-duration: 2s;
+}

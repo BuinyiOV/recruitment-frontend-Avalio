@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 0.2rem 1rem;
+	min-height: 100vh;
+
+	font-family: sans-serif;
+
+	transition-duration: 0.7s;
+
+}
+
+@media (min-width:767px) {
+	.container {
+		padding: 1rem 3rem;
+	}
+}
+
+@media (min-width:1000px) {
+	.container {
+		padding: 2rem 5rem;
+	}
+}
+
+@media (min-width:2000px) {
+	.container {
+		padding: 2rem 15rem;
+	}
+}
